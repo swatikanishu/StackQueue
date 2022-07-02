@@ -99,3 +99,4 @@ public class Stack {
         stackoperation.printStack();    //print operation
     }
 }
+
