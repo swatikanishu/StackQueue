@@ -3,6 +3,7 @@ package com.bridgelabz;
 public class Stack {
     Node top;
     Node next;
+    //Represent a node of the singly linked list
 
     public class Node {
         int data;
@@ -10,7 +11,10 @@ public class Stack {
     }
     public void Node() {
         this.top = null;
-    }.
+    }
+
+    //create a method name as push and passing parameter
+    // the push is Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.
     public void push(int number) {
 
         // create a new node
@@ -89,9 +93,9 @@ public class Stack {
         stackoperation.push(70);   //push operation add 3rd element
 
         stackoperation.printStack();
+
         stackoperation.pop();           //pop operation for remove element.
 
         stackoperation.printStack();    //print operation
     }
 }
-
